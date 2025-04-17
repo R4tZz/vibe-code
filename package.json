@@ -1,0 +1,21 @@
+{
+  "name": "vibe-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ci": "playwright test --reporter=list --workers=2",
+    "mcp-server": "npx @playwright/mcp@latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "@playwright/mcp": "^0.0.10",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.1",
+    "playwright": "^1.51.1"
+  }
+}

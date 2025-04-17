@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.log
+dist/
+output/
+*.tsbuildinfo
+.vscode/
+playwright-report/
+*.tmp
